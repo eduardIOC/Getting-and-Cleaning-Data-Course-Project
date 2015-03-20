@@ -132,5 +132,5 @@ total_data %>%
 The result of the data processing are in a text file [tidy_data.txt]. The result consists of 68 variables and 180 rows. 
 
 #CodeBook
-All variables are detailed described in the [CodeBook.md](https://github.com/CodeBook.md). 
+All variables are detailed described in the [CodeBook.md](https://github.com/eduardIOC/Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md). 
 
