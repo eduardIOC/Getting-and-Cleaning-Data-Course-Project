@@ -62,9 +62,9 @@ total_data <- rbind(test_data,train_data)
 
 #Appropriately labels the data set with descriptive variable names. 
 columns_to_rename <- names(total_data)[grep("V",names(total_data))]
-new_colum_names <- mgsub(c("\\-","\\(","\\)","Acc", "Gyro","Mag","^tBody","^fBody",
+new_colum_names <- mgsub(c("\\-","\\(","\\)","Acc", "Gyro","Mag","^t","^f","Body","Gravity",
                            "Jerk","X","Y","Z","__") 
-                         ,c("_","","","acceleration_","gyroscope_","_magnitude", "time_body_","frequency_body_",
+                         ,c("_","","","acceleration_","gyroscope_","_magnitude", "time_","frequency_","body_","gravity_",
                            "jerk","x","y","z","_")
                          ,columns_mean_std$V2)
 for (i in 1:length(columns_to_rename)) {
