@@ -10,7 +10,7 @@ output: html_document
 This Codebook contains the description of the variables in the 
  [tidy_data.txt] (https://github.com/eduardIOC/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt) file. The file contains 68 variables and 180 rows. 
 
-A explanation of the code used in the data processing is in the [Readme.md] (https://github.com//eduardIOC/Getting-and-Cleaning-Data-Course-Project/master/README.md) file.
+A explanation of the code used in the data processing is in the [Readme.md] (https://github.com/eduardIOC/Getting-and-Cleaning-Data-Course-Project/master/README.md) file.
 
 ```
 *  subject  -  Number
