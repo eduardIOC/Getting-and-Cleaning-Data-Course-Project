@@ -1,5 +1,17 @@
-# CodeBook 
+---
+title: "Getting and Cleaning Data Course Project CodeBook"
+author: "Eduardo Latorre Jarque"
+date: "20/03/2015"
+output: html_document
+---
+  
+#Getting and Cleaning Data Course Project CodeBook  
 
+This Codebook contains the description of the variables in the 
+ [tidy_data.txt] (https://github.com/eduardIOC/Getting-and-Cleaning-Data-Course-Project/blob/master/tidy_data.txt) file. The file contains 68 variables and 180 rows. 
+
+
+```
 *  subject  -  Number
           Identifier of the subject who carried out the experiment.
                 1...30  
